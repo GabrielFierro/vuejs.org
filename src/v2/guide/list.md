@@ -59,7 +59,7 @@ Dentro de los bloques `v-for` tenemos acceso completo a las propiedades del ámb
 ``` html
 <ul id="example-2">
   <li v-for="(item, index) in items">
-    {{ MensajePadre }} - {{ index }} - {{ item.mensaje }}
+    {{ mensajePadre }} - {{ index }} - {{ item.mensaje }}
   </li>
 </ul>
 ```
